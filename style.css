@@ -16,9 +16,7 @@ button.nav-button {
     font-family: 'Poppins';
 }
 
-
-/* -------->> BY FLEXBOX + MOBILE RESPONSIVE---------->>  */
-
+/* ---By Flex-box--- */
 
 nav.navbar-container {
     display: flex;
@@ -72,10 +70,10 @@ section.Hero-banner {
 }
 
 .hero-container {
-
-    width: 40%;
+    /* width: 20rem; */
+    /* width: 40%; */
     display: flex;
-
+    justify-content: center;
     flex-wrap: wrap;
 
 }
@@ -151,48 +149,6 @@ button.button-join {
     padding: 0vw 2vw;
     border-radius: 9px;
     font-size: 25px;
-}
-
-@media screen and (max-width: 1452px) {
-    ul.list {
-
-        margin: 2vh 0px;
-
-    }
-
-    nav.navbar-container {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-
-
-    }
-
-    section.Hero-banner {
-
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-        margin: 0px auto;
-
-    }
-
-    span.square {
-        z-index: -1;
-        position: relative;
-        left: 12em;
-        top: -22em;
-        margin-bottom: -23em;
-    }
-
-    button.button-email {
-
-        margin-top: 6vh;
-        margin-bottom: 7vh;
-    }
-
 }
 
 
